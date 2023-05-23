@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+
+
+
+@font-face {
+  font-family: "Mystery Quest";
+  src: url('../fonts/MysteryQuest-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255
+}
+
+
+body {
+  color: #291507;
+  background: #E3E1DC;
+}
+
+.Mystery {
+  font-family: 'Mystery Quest';
+}
+
