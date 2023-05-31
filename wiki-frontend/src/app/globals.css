@@ -28,3 +28,8 @@ body {
   font-family: 'Mystery Quest';
 }
 
+.hero {
+  background-image: url(../assets/HeroImagelg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
